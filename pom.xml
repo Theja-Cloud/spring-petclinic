@@ -17,9 +17,9 @@
   <properties>
     <!-- Generic properties -->
     <java.version>17</java.version>
-    <sonar.host.url>http://13.207.43.211:9000/</sonar.host.url>
+    <sonar.host.url>http://65.2.83.87:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>password</sonar.password> 
+		<sonar.password>123456</sonar.password> 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <!-- Important for reproducible builds. Update using e.g. ./mvnw versions:set -DnewVersion=... -->
@@ -169,13 +169,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>KK FUNDA Releases Nexus Repository</name>
-	      <url>http://13.232.204.222:8081/repository/jio-release/</url>
+	      <url>http://13.235.113.43:8081/repository/jio-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>KK FUNDA Snapshot Nexus Repository </name>
-	      <url>http://13.232.204.222:8081/repository/jio-snapshot/</url>
+	      <url>http://13.235.113.43:8081/repository/jio-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
